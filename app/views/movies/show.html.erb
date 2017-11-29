@@ -1,0 +1,49 @@
+
+    <article>
+      <header>
+        <h2><%= @movie.title %></h2>
+      </header>
+      <p>
+        <%= @movie.description %>
+      </p>
+      <h3>Cast</h3>
+      <p>
+        <%= @movie.cast %>
+      </p>
+      
+      <h3>Director</h3>
+      <p>
+        <%= @movie.director %>
+      </p>
+      
+      <h3>Duration</h3>
+      <p>
+        <%= @movie.duration %>
+      </p>
+      
+      <h3>Image</h3>
+      <%= image_for(@movie) %>
+      <table>
+        <tr>
+          <th>Released:</th>
+          <td><%= @movie.released_on %></td>
+        </tr>
+        <tr>
+          <th>Rating:</th>
+          <td><%= @movie.rating %></td>
+        </tr>
+        <tr>
+          <th>Total Gross:</th>
+          <td><%= format_total_gross(@movie) %></td>
+        </tr>
+      </table>
+    </article>
+
+    
+    
+    <%= link_to("Edit Movie", edit_movie_path) %>
+
+    <%= link_to"Delete Movie", movie_path(@movie), method: :delete,
+    data: {confirm: "Are you sure you want to delete this awesome movie?"} %>
+
+    
