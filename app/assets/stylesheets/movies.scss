@@ -12,6 +12,8 @@
 /* MOVIES */
 
 article#movie {
+  padding-top: 10px;
+  padding-bottom: 10px;
   p {
     padding: 0.5em 0;
     font-size: 1.15em;
@@ -25,9 +27,10 @@ article#movie {
   }
 
   img {
-    float: right;
-    margin: 0 0 20px 20px;
+    float: left;
+    margin: 0 15px 20px 20px;
     border: 3px solid $primary-color;
+    padding: 5px;
   }
 
   ul.review-stats {
@@ -44,13 +47,12 @@ article#movie {
   }
 }
 
-ul#movies {
+ul#movie {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 30px;
   article.movie {
     margin-bottom: 1.5em;
-    padding-bottom: 1.5em;
     border-bottom: 1px dotted $secondary-color;
 
     &:last-child {
