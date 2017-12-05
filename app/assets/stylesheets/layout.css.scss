@@ -5,10 +5,10 @@ body {
 }
 
 header#page-header {
-  color: $secondary-color;
-  background-color: $primary-color;
+  color: $primary-color;
+  background-color: $secondary-color;
   padding: 5px;
-  border-bottom: 5px solid darken($primary-color, 15%);
+  border-bottom: 5px solid darken($secondary-color, 15%);
   h1 {
     text-align: center;
     text-transform: uppercase;
@@ -28,7 +28,7 @@ aside#sidebar {
 }
 
 .movieNum {
-  color: dodgerblue;
+  color: $secondary-color;
   padding: 10px;
   margin-left: 10px;
 }

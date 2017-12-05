@@ -11,9 +11,25 @@
 
 /* MOVIES */
 
+article {
+  width: auto;
+  background-color: $primary-color;
+  border-radius: 15px;
+}
+
+table {
+  th {
+    text-align: left;
+  }
+}
+
 article#movie {
+  background-color: $primary-color;
+  width: 35%;
+  margin: 8px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 15px;
   p {
     padding: 0.5em 0;
     font-size: 1.15em;
@@ -24,6 +40,10 @@ article#movie {
     margin: 0.5em 0;
     font-size: 115%;
     color: $secondary-color;
+
+    a {
+      color: dodgerblue;
+    }
   }
 
   img {
@@ -92,7 +112,7 @@ ul#movie {
       }
 
       td {
-        width: 65%;
+        width: 100%;
       }
     }
 
@@ -102,5 +122,44 @@ ul#movie {
       text-align: center;
       margin-top: 1em;
     }
+  }
+}
+
+/* FLASHES */
+
+.flash {
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: #ffc 0 0 4px;
+
+  &.notice {
+    background-color: #70db70;
+  }
+
+  &.alert {
+    background-color: rgb(199, 75, 75);
+  }
+}
+
+/* ERRORS */
+
+section#errors {
+  margin: 1em 0;
+  padding: 1em;
+  background: grey;
+
+  h2 {
+    color: white;
+    font-size: 1.25em;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin: 0.5em 0;
+    font-weight: bold;
   }
 }

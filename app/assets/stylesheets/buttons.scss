@@ -1,6 +1,7 @@
 @import 'colors';
 
 a.button {
+  color: $secondary-color;
   display: inline-block;
   border: 1px $primary-color solid;
   border-radius: 4px;
