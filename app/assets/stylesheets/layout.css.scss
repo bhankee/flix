@@ -2,12 +2,14 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: rgb(241, 93, 48);
 }
 
 header#page-header {
   color: $primary-color;
-  background-color: $secondary-color;
+  background-color: rgb(67, 88, 122);
   padding: 5px;
+  margin: -10px;
   border-bottom: 5px solid darken($secondary-color, 15%);
   h1 {
     text-align: center;
@@ -16,7 +18,7 @@ header#page-header {
 }
 footer#page-footer {
   color: $primary-color;
-  background-color: $secondary-color;
+  background-color: darken($secondary-color, 25%);
   padding: 5px;
   border-top: 5px solid darken($secondary-color, 25%);
   text-align: center;
@@ -28,7 +30,8 @@ aside#sidebar {
 }
 
 .movieNum {
-  color: $secondary-color;
+  color: rgb(253, 252, 252);
   padding: 10px;
   margin-left: 10px;
+  text-align: center;
 }
