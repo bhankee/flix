@@ -6,34 +6,14 @@
 
 ## Purpose:
 
-###Make an application to be able to add, edit, and delete movies.
+### Make an application to be able to add, edit, and delete movies.
 
-##Details:
+## Details:
 
 ### Ruby version: 2.3.3
 
 ### Rails version: 5
 
-###Used migrations to generate database tables.
+### Used migrations to generate database tables.
 
 ### Used Saas files for CSS styling.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
